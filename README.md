@@ -1,2 +1,5 @@
-# bonini
-Меню Bonini Burger (демо)
+# Меню Bonini Burger (демо)
+
+Сайт: https://xasi88.github.io/bonini/
+
+Эту страницу выкладывает скрипт из закрытого проекта. Здесь её не править.
