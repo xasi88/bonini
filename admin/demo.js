@@ -2,7 +2,7 @@
 // Правки лежат в браузере этого устройства (Live.DEMO) и ложатся поверх меню, как правки из базы.
 // После «да» владельца: в admin/index.html вместо demo.js ставим admin.js и Firebase.
 
-import { createUI } from "./ui.js?v=b71472e9";
+import { createUI } from "./ui.js?v=32869f3a";
 
 const L = window.Live, BASE = window.MENU_DATA;
 const baseIds = new Set(BASE.menu.flatMap((g) => g.items.map((it) => it.id)));

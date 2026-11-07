@@ -50,7 +50,6 @@ window.MenuView = (function () {
     $("groups").innerHTML = M.filter((g) => g.items.length).map(section).join("");
     $("chipsTrack").insertAdjacentHTML("beforeend", sections.map((s) => `<button class="chip" type="button" data-cat="${s.id}">${esc(s.title)}</button>`).join(""));
     document.querySelectorAll("#groups .grid").forEach((grid) => [...grid.children].forEach(observe));
-    $("demoNote").hidden = !C.demo;
     setupChips();
   }
 
